@@ -12,7 +12,7 @@ function protocolIsApplicable(url) {
 function initializePageAction(tab) {
   if (protocolIsApplicable(tab.url)) {
     browser.tabs.insertCSS(tab.id, { file: HIGHTLIGHT_CSS })
-    browser.tabs.insertCSS({file: CSS});
+    browser.tabs.insertCSS(tab.id, { file: CSS });
   }
 }
 

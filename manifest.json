@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Synti",
-  "version": "1.0",
+  "version": "1.0.3",
 
   "description": "Add syntax highlighting on WhatsApp Web",
   "background": {
@@ -16,14 +16,13 @@
 
   "content_scripts": [
     {
-      "matches": [ "*://*.whatsapp.com/*", "*://*.google.com/*" ],
+      "matches": [ "*://web.whatsapp.com/*" ],
       "js": [ "modules/highlight-9.18.1.min.js", "synti.js"]
     }
   ],
  
   "permissions": [
-    "<all_urls>",
-    "activeTab",
+    "*://web.whatsapp.com/*",
     "tabs"
   ]
 }

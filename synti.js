@@ -13,7 +13,7 @@ let previousCodeCount = 0;
 const callback = function(mutationsList, observer) {
   const mainNode = document.getElementById("main")
   const codesElements = mainNode.querySelectorAll("code")
-  console.log(codesElements.length, previousCodeCount)
+
   if(codesElements.length !== previousCodeCount){
     previousCodeCount = codesElements.length
 
