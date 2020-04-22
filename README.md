@@ -1,12 +1,6 @@
 # Synti
 
-Testing Extension
+Adds syntax highlighting to you codes on WhatsApp Web. It highlights everything you write
+`    ``` ` clause.
 
-
-In **Firefox**
-
-
-- In address bar `about:debugging#/setup`
-- `This Firefox` tab
-- Click on `Load Temporary Add-on`
-- Open `synti/manifest.json`
+[[ Available at AMO ]](https://addons.mozilla.org/en-US/firefox/addon/synti/)
